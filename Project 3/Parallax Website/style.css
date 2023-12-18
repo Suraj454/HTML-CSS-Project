@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: #666;
+}
+
+
+.img-f {
+    background-image: url(nature2.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    background-attachment: fixed;
+
+}
+
+.text-f {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    border: 2px solid black;
+    width: 260px;
+    letter-spacing: 0.8px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #d0aeae;
+    text-align: center;
+    background-color: rgb(20 20 20);
+}
+
+.main1 {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgb(239 239 239);
+    color: black;
+}
+
+.img-s {
+    background-image: url(mountain.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 760px;
+    background-attachment: fixed;
+}
+
+.text-s {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    border: 2px solid black;
+    width: 300px;
+    letter-spacing: 0.8px;
+    padding: 9px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #d0aeae;
+    text-align: center;
+    background-color: rgb(20 20 20);
+}
+
+
+.main2 {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    color: rgb(237, 227, 227);
+}
+
+.img-t {
+    background-image: url(ooty.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 740px;
+    background-attachment: fixed;
+}
+
+.text-t {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    border: 2px solid black;
+    width: 350px;
+    letter-spacing: 0.8px;
+    padding: 9px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #d0aeae;
+    text-align: center;
+    background-color: rgb(20 20 20);
+}
+
+
+.main3 {
+    padding: 50px 80px;
+    text-align: center;
+    background-color: rgb(14, 14, 14);
+    color: rgb(237, 227, 227);
+}
