@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    position: relative;
+}
+
+
+.img1 {
+
+    background-image: url(Hero.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 730px;
+}
+
+
+
+.text-1 h2 {
+
+
+    color: white;
+    position: absolute;
+    top: 110px;
+    left: 430px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+
+
+.text-1 p {
+
+    color: white;
+    font-size: 1 rem;
+    font-weight: 500;
+    position: absolute;
+    top: 143px;
+    left: 486px;
+}
+
+
+
+.text-2 h2 {
+
+    color: white;
+    position: absolute;
+    top: 166px;
+    left: 430px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    white-space: 5px;
+    text-transform: uppercase;
+}
+
+
+
+.mid {
+
+    background-color: black;
+    height: 120px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.main-1 {
+    font-size: 2.8rem;
+    word-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-2 {
+    font-size: 3.8rem;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+
+
+.box {
+    margin-top: 15px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1 {
+
+    height: 350px;
+    width: 350px;
+    border: 2px solid transparent;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    border-radius: 8px;
+
+}
+
+.box1:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.box1-img {
+    height: 175px;
+    width: 350px;
+    background-image: url("Web\ Devlopment1.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+
+.box1-text {
+
+    width: 330px;
+    margin: 30px 0px 0px 10px;
+}
+
+.box1-text h3 {
+    margin-bottom: 9px;
+}
+
+.box2 {
+
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.box2:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+
+.box2-img {
+    height: 175px;
+    width: 350px;
+    background-image: url("App\ devolopment.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.box2-text {
+
+    width: 330px;
+    margin: 30px 0px 0px 10px;
+}
+
+.box2-text h3 {
+    margin-bottom: 9px;
+}
+
+.box3 {
+
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.box3:hover {
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.box3-img {
+    height: 175px;
+    width: 350px;
+    background-image: url("UI\ Ux.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+.box3-text {
+
+    width: 330px;
+    margin: 30px 0px 0px 10px;
+}
+
+.box3-text h3 {
+    margin-bottom: 9px;
+}
+
+
+
+.footer {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-1 {
+
+    height: 100px;
+    padding-left: 10px;
+    width: 50%;
+    padding-top: 15px;
+    background: #beef00;
+}
+
+.footer-1 p {
+    padding-top: 10px;
+
+}
+
+.footer-2 {
+
+    height: 100px;
+    padding-left: 10px;
+    width: 50%;
+    padding-top: 15px;
+    background-color: rgb(17, 142, 244);
+}
+
+.new1 {
+    height: 175px;
+    width: 350px;
+    background-image: url("Web3.jpg");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
