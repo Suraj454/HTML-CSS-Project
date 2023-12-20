@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("music.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    margin-top: 25px;
+    margin-right: 40px;
+    color: black;
+
+}
+
+.header a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+
+.header a:hover {
+    background-color: black;
+    color: white;
+    padding: 1px 2px;
+
+}
+
+
+.box {
+
+    height: 400px;
+    width: 400px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.box1 {
+    /*border: 2px solid red; */
+    width: 200px;
+    margin-right: 100px;
+    margin-top: -3px;
+
+}
+
+.box2 {
+
+    width: 200px;
+    margin-right: 100px;
+    margin-top: -3px;
+
+}
+
+.box3 {
+
+    width: 200px;
+    margin-right: 100px;
+    margin-top: -3px;
+}
+
+.right {
+
+    float: right;
+    margin-right: 60px;
+    position: relative;
+    bottom: 200px;
+}
+
+.right p {
+    font-size: 1.1rem;
+    position: relative;
+    right: 6px;
+}
+
+.right a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    position: relative;
+    left: 130px;
+    bottom: 23px;
+    ;
+
+}
+
+.right a:hover {
+    color: rgb(71, 71, 218);
+    text-decoration: underline rgb(71, 71, 218);
+
+}
