@@ -1,0 +1,406 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+
+    border: 2px solid black;
+    height: 60px;
+    width: 100%;
+    background-color: #242020
+}
+
+.header-left {
+    background-image: url(logo.jpg);
+    background-size: cover;
+}
+
+.header-mid {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.header-mid a {
+    margin-left: 80px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.header-mid a #home:active {
+    color: white;
+    background-color: rgb(238, 69, 53);
+    transform: scale(1.02)
+}
+
+.header-mid a:hover {
+    color: white;
+    background-color: rgb(237, 36, 36);
+    transform: scale(1.02);
+}
+
+.header-right i {
+
+    color: rgb(255, 255, 255);
+    float: right;
+    font-size: 1.1rem;
+    margin: -20px 60px;
+}
+
+.text11 {
+    height: 20px;
+    width: 180px;
+    padding: 4px;
+    background-color: rgb(18, 191, 12);
+    color: white;
+    float: right;
+    transform: rotate(90deg);
+    position: relative;
+    top: 90px;
+    left: 70px;
+    animation: ColorAnimate 8s ease-in-out infinite normal;
+}
+
+@keyframes ColorAnimate {
+    0% {
+        top: 90px;
+    }
+
+    100% {
+        top: 400px;
+    }
+}
+
+.box1 {
+
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    margin: 60px 0px 0px 100px;
+    border-radius: 50%;
+    background-color: #f2eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-image: url(Hero1.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+
+
+.box2 {
+
+    height: 400px;
+    width: 400px;
+    position: relative;
+    left: 600px;
+    bottom: 330px;
+}
+
+.text1 {
+
+    height: 20px;
+    width: 180px;
+    padding: 4px;
+    background-color: rgb(18, 191, 12);
+    color: white;
+}
+
+.text2 {
+
+    font-size: 3rem;
+    margin-top: 15px;
+    font-weight: 560;
+    padding: 4px;
+}
+
+.text3 {
+    width: 500px;
+
+    margin-top: 15px;
+    padding: 4px;
+}
+
+.box2 button {
+    border-radius: 4px;
+    margin-top: 15px;
+    background-color: gold;
+    width: 100px;
+    height: 25px;
+    font-weight: 500;
+}
+
+
+.box3 {
+    height: 120px;
+    position: relative;
+    display: flex;
+    bottom: 300px;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+
+
+.card1 {
+    height: 100px;
+    width: 400px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card1:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card1 .discount {
+
+    background-image: url(discount.png);
+    background-size: cover;
+    font-size: 0.4rem;
+    height: 50px;
+    width: 50px;
+    transform: rotate(130deg);
+    position: relative;
+    left: 9px;
+    top: 10px;
+
+}
+
+.card1 h3 {
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+}
+
+.card1 p {
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.card2 {
+
+    height: 100px;
+    width: 400px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card2:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card2 .fresh {
+
+    background-image: url(fresh.png);
+    background-size: cover;
+    font-size: 0.4rem;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 9px;
+    top: 10px;
+
+}
+
+.card2 h3 {
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+}
+
+.card2 p {
+    position: relative;
+    bottom: 40px;
+    left: 80px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.card3 {
+
+    height: 100px;
+    width: 400px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card3:hover {
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+
+.card3 .delivery {
+
+    background-image: url(delivery.png);
+    background-size: cover;
+    font-size: 0.8rem;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    left: 9px;
+    top: 5px;
+
+}
+
+.card3 h3 {
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+}
+
+.card3 p {
+    position: relative;
+    bottom: 60px;
+    left: 100px;
+    width: 300px;
+    margin-top: 5px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 230px;
+
+}
+
+.box4 button {
+    background-color: rgb(18, 191, 12);
+    height: 25px;
+    width: 90px;
+    color: white;
+}
+
+.box4 h2 {
+    margin-top: 59px;
+    font-size: 2.3rem;
+    text-decoration: underline;
+}
+
+.box5 {
+    height: 1000px;
+    width: 90%;
+    position: relative;
+    left: 80px;
+    bottom: 140px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "i1 i1 i2 i3"
+        "i1 i1 i2 i7"
+        "i4 i5 i6 i7";
+}
+
+.item1 {
+    grid-area: i1;
+    background-image: url("food3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item2 {
+    grid-area: i2;
+    background-image: url("food2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item3 {
+    grid-area: i3;
+    background-image: url("food5.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item4 {
+    grid-area: i4;
+    background-image: url("food4.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item5 {
+    grid-area: i5;
+    background-image: url("Hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item6 {
+    grid-area: i6;
+    background-image: url("food6.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.item7 {
+    grid-area: i7;
+    background-image: url("food1.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.line {
+    border-bottom: 3px solid black;
+    position: relative;
+    bottom: 70px;
+}
+
+.footer {
+    height: 250px;
+    background-color: rgb(31, 30, 30);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+.ft1 {
+    font-size: 1.1rem;
+    margin-top: 55px;
+}
+
+.ft1 ul {
+    margin-top: 10px;
+}
+
+.ft2 {
+    font-size: 1.1rem;
+    margin-top: 55px;
+}
+
+.ft2 ul {
+    margin-top: 10px;
+}
+
+.ft3 {
+    font-size: 1.1rem;
+    margin-top: 55px;
+}
+
+.ft3 input {
+    margin-top: 10px;
+}
